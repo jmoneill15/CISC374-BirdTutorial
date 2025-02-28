@@ -5,7 +5,23 @@ The basis of this game was designed following the video tutorial "The Unity Tuto
 
 Music and Sound References:
 
+  Title Screen Music: 
+    Link: 
+    
+  Game Screen Music: Track 8 From 8Bit Music - 062022 By GWriterStudio
+    Link: https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
+
+SFX References:
+
+All of the SFX used are from FREE Casual Game SFX Pack by Dustyroom
+Link: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116#content
+
+Score SFX: DM-CGS-45
+Wings SFX: DM-CGS-07
+Death SFX: DM-CGS-03
+
 Other References: 
+
 Font: Free Pixel Font - Thaleah on Unity Asset Store
   Link: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059
 
