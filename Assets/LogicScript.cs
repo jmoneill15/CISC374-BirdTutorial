@@ -8,6 +8,7 @@ public class LogicScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;
+
     //public AudioSource ; add in audio
 
   
@@ -27,5 +28,5 @@ public class LogicScript : MonoBehaviour
     public void gameOver(){
         gameOverScreen.SetActive(true);
     }
-    
+
 }

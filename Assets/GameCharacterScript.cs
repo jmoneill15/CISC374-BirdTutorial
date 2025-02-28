@@ -1,4 +1,6 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class GameCharacterScript : MonoBehaviour
 {
@@ -8,11 +10,11 @@ public float flapStrength;
 public LogicScript logic;
 public bool birdIsAlive = true;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>(); //calls all logical functions
-
     }
 
     // Update is called once per frame
