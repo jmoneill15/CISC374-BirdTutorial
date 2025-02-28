@@ -9,6 +9,8 @@ public class LogicScript : MonoBehaviour
     public Text scoreText;
     public GameObject gameOverScreen;
 
+    public GameObject gameCharacter;
+
     //public AudioSource ; add in audio
 
   
@@ -27,6 +29,7 @@ public class LogicScript : MonoBehaviour
 
     public void gameOver(){
         gameOverScreen.SetActive(true);
+        gameCharacter.GetComponent<GameCharacterScript>().birdIsAlive = false;
     }
 
 }
