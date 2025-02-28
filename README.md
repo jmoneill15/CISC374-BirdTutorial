@@ -6,5 +6,6 @@ The basis of this game was designed following the video tutorial "The Unity Tuto
 Music and Sound References:
 
 Other References: 
-
+Font: Free Pixel Font - Thaleah on Unity Asset Store
+  Link: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059
 
