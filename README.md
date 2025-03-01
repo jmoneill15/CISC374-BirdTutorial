@@ -5,8 +5,8 @@ The basis of this game was designed following the video tutorial "The Unity Tuto
 
 Music and Sound References:
 
-  Title Screen Music: 
-    Link: 
+  Title Screen Music: Track BGM_03 From Casual Game BGM #5 By B.G.M
+    Link: https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943
     
   Game Screen Music: Track 8 From 8Bit Music - 062022 By GWriterStudio
     Link: https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623
@@ -19,6 +19,7 @@ Link: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-
 Score SFX: DM-CGS-45
 Wings SFX: DM-CGS-07
 Death SFX: DM-CGS-03
+Buttons: DM-CGS-32
 
 Other References: 
 
