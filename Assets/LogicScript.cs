@@ -15,6 +15,8 @@ public class LogicScript : MonoBehaviour
 
     public GameObject newHighScoreScreen; //New high score text
 
+
+
     //public AudioSource ; add in audio
 
     AudioManager audioManager;
@@ -57,7 +59,7 @@ public class LogicScript : MonoBehaviour
         }
         else{ // if no new highscore just reputs up the most recent high score onto game over screen
             highScoreText.GetComponent<Text>().text = highScore.ToString();
-
+            newHighScoreScreen.SetActive(false);
         }
 
     }
