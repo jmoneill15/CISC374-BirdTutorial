@@ -13,8 +13,16 @@ public class LogicScript : MonoBehaviour
 
     public GameObject highScoreText; //CurrentHighScore
 
+    public GameObject newHighScoreScreen; //New high score text
+
     //public AudioSource ; add in audio
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd)
@@ -28,6 +36,7 @@ public class LogicScript : MonoBehaviour
 
     public void restartGame()
     {
+        audioManager.PlaySFX(audioManager.restart); //plays button sound
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
@@ -44,6 +53,7 @@ public class LogicScript : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", newScore);
             PlayerPrefs.Save();
             highScoreText.GetComponent<Text>().text = highScore.ToString();
+            newHighScoreScreen.SetActive(true); //Puts new score text on screen
         }
         else{ // if no new highscore just reputs up the most recent high score onto game over screen
             highScoreText.GetComponent<Text>().text = highScore.ToString();

@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip score;
     public AudioClip wings;
 
+    public AudioClip restart;
+
     //Once game starts music is playing constantly
     private void Start() 
     {
