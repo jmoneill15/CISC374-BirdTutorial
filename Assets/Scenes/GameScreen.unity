@@ -1872,6 +1872,7 @@ MonoBehaviour:
   death: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973, type: 3}
   score: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
   wings: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  restart: {fileID: 0}
 --- !u!4 &2039033419
 Transform:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ public class LogicScript : MonoBehaviour
 
     public GameObject newHighScoreScreen; //New high score text
 
+    
+
 
 
     //public AudioSource ; add in audio
